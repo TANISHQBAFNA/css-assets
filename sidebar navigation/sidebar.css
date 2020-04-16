@@ -1,0 +1,35 @@
+body{
+	background: #080f1e;
+}
+
+#side_nav{
+	width: 200px;
+	height: 100vh;
+	position: fixed;
+	right:-200px;
+	top:0px;
+	background: #162950;
+	z-index: 2;
+	font-family: "Heading Pro";
+	transition: 0.5s;
+}
+#side_nav ul li{
+	text-transform: uppercase;
+	list-style: none;
+	margin: 50px 0;
+	letter-spacing: 1.2px;
+	cursor: pointer;
+}
+
+#side_nav ul a{
+	color: #fff;
+	text-decoration: none;
+}
+
+#menu_icon{
+	width:40px;
+	position: fixed;
+	right:30px;
+	top: 35px;
+	cursor: pointer;
+}
